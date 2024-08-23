@@ -1,3 +1,15 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+}
+header img {
+  height: 100%;
+}
 
+footer {
+  position: absolute;
+}
 
 /*# sourceMappingURL=index.css.map */
