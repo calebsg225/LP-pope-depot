@@ -1,1 +1,0 @@
-# Landing Page for Pope Depot Fake Web Store
