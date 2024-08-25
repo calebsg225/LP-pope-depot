@@ -2,14 +2,59 @@
   font-family: nunito;
   src: url("./fonts/Nunito Sans Black.ttf");
 }
+body {
+  margin: 0;
+  font-family: nunito;
+  background-color: #aac2d5;
+}
+
 header {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 6rem;
+  padding: 2.3rem 0.5rem 0.5rem;
+  background-color: white;
 }
 header img {
-  height: 100%;
+  width: 6rem;
+}
+header div {
+  position: absolute;
+  inset: 0 0 auto 0;
+  background-color: #ac0c0c;
+  padding: 0.2rem;
+  text-align: center;
+}
+header div p {
+  margin: 0;
+}
+
+main {
+  background-color: #aac2d5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0 0;
+  margin: 0;
+}
+main .action-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+main .action-container h1 {
+  letter-spacing: 0.1rem;
+  font-size: 3rem;
+  color: #5b1865;
+}
+main .action-container h1 span {
+  text-decoration: red line-through;
+}
+main .hero-container img {
+  width: 100%;
 }
 
 footer {

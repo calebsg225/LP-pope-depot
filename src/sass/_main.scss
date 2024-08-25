@@ -1,2 +1,30 @@
 main {
+  background-color: $sky-blue-background;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0 0;
+  margin: 0;
+
+  .action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      letter-spacing: .1rem;
+      font-size: 3rem;
+      color: $purple-color;
+      span {
+        text-decoration: red line-through;
+      }
+    }
+  }
+  .hero-container {
+    img {
+      width: 100%;
+    }
+  }
 }
