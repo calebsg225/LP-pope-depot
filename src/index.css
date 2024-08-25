@@ -2,7 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 7rem;
+  height: 6rem;
 }
 header img {
   height: 100%;
@@ -10,6 +10,21 @@ header img {
 
 footer {
   position: absolute;
+}
+
+.call-to-action {
+  cursor: pointer;
+  background-color: #c4972e;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: "Nunito Sans";
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  border: solid 3px #c4972e;
+  transition: border-color 0.2s;
+}
+.call-to-action:hover {
+  border: solid 3px #ac0c0c;
 }
 
 /*# sourceMappingURL=index.css.map */

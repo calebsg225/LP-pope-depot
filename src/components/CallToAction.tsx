@@ -4,7 +4,7 @@ interface CallToActionProps {
 
 const CallToAction = ({text}: CallToActionProps) => {
   return (
-    <button>{text}</button>
+    <button className="call-to-action">{text}</button>
   );
 }
 

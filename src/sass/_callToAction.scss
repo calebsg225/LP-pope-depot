@@ -1,0 +1,17 @@
+.call-to-action {
+  cursor: pointer;
+  background-color: $gold-color;
+  
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: 'Nunito Sans';
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+
+  border: solid 3px $gold-color;
+  transition: border-color .2s;
+
+  &:hover {
+    border: solid 3px $red-color;
+  }
+}
