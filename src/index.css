@@ -6,6 +6,13 @@ body {
   margin: 0;
   font-family: nunito;
   background-color: #aac2d5;
+  height: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 header {
@@ -27,6 +34,7 @@ header div {
   text-align: center;
 }
 header div p {
+  color: white;
   margin: 0;
 }
 
@@ -60,10 +68,20 @@ main .hero-container img {
   width: 100%;
 }
 
+@media (min-width: 1000px) {
+  main {
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  main .hero-container img {
+    max-width: 40vw;
+  }
+}
 footer {
   text-align: center;
-  background-color: #aac2d5;
-  padding: 1rem 0;
+  background-color: #7a1895;
+  padding: 0.5rem 0;
 }
 footer p {
   margin: 0;

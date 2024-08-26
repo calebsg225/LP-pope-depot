@@ -2,4 +2,11 @@ body {
   margin: 0;
   font-family: nunito;
   background-color: $sky-blue-background;
+  height: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
