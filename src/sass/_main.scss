@@ -37,6 +37,9 @@ main {
     padding: 0;
     flex-direction: row;
     justify-content: space-evenly;
+    .action-container {
+      align-items: start;
+    }
     .hero-container {
       img {
         max-width: 40vw;

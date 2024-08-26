@@ -74,13 +74,16 @@ main .hero-container img {
     flex-direction: row;
     justify-content: space-evenly;
   }
+  main .action-container {
+    align-items: start;
+  }
   main .hero-container img {
     max-width: 40vw;
   }
 }
 footer {
   text-align: center;
-  background-color: #7a1895;
+  background-color: #aac2d5;
   padding: 0.5rem 0;
 }
 footer p {
