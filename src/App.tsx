@@ -23,7 +23,9 @@ function App() {
           <img src={popeHeroImage} alt="hero_image" />
         </section>
       </main>
-      <footer></footer>
+      <footer>
+        <p>Copyright &copy; 30AD PopeDepot. All Rights Reserved</p>
+      </footer>
     </>
   )
 }

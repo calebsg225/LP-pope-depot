@@ -14,10 +14,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 2.3rem 0.5rem 0.5rem;
-  background-color: white;
+  background-color: #aac2d5;
 }
 header img {
-  width: 6rem;
+  width: 8rem;
 }
 header div {
   position: absolute;
@@ -48,17 +48,26 @@ main .action-container {
 main .action-container h1 {
   letter-spacing: 0.1rem;
   font-size: 3rem;
-  color: #5b1865;
+  color: #7a1895;
 }
 main .action-container h1 span {
   text-decoration: red line-through;
+}
+main .action-container h2 {
+  margin: 0 0 3rem;
 }
 main .hero-container img {
   width: 100%;
 }
 
 footer {
-  position: absolute;
+  text-align: center;
+  background-color: #aac2d5;
+  padding: 1rem 0;
+}
+footer p {
+  margin: 0;
+  font-size: 1.2rem;
 }
 
 .call-to-action {
